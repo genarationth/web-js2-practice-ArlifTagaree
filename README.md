@@ -17,17 +17,17 @@ Work in pairs to complete the following table:
 | true                  |    1     |  'true'  |  true     |
 | 0                     |    0     |  '0'     |  false    |
 | 1                     |    1     |   '1'    |  true     |
-| “0”                   |          |          |           |
-| “000”                 |          |          |           |
-| “1”                   |          |          |           |
-| NaN                   |          |          |           |
-| Infinity              |          |          |           |
-| -Infinity             |          |          |           |
-| “”                    |          |          |           |
-| “20”                  |          |          |           |
-| “Twenty”              |          |          |           |
-| null                  |          |          |           |
-| undefinited           |          |          |           |
+| “0”                   |     0    |    '0'   |  false    |
+| “000”                 |     0    |   '000'  |  true     |
+| “1”                   |    1     |    '1'   |   true    |
+| NaN                   |    NaN   |   'NaN'  |   false   |
+| Infinity              | Infinity |'Infinity'|    true   |
+| -Infinity             | -Infinity|'-Infinity'|   true   |
+| “”                    |    0     |     ''   |   false   |
+| “20”                  |    20    |    '20'  |   true    |
+| “Twenty”              |   NaN    |  'Twenty'|   true    |
+| null                  |    0     |   'null' |   false   |
+| undefinited           |   NaN    |'undefinited'|  false |
 
 
 ## Part 2:  New contender
